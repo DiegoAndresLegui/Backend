@@ -1,0 +1,32 @@
+[{
+    "nombre": "Lara",
+    "apellido": "MArin",
+    "edad": 35,
+    "categoria": "admin",
+    "id" : 1
+},
+
+{
+    "nombre": "Axel",
+    "apellido": "Legui",
+    "edad": 8,
+    "categoria": "estudiante",
+    "id" : 2
+},
+
+{
+    "nombre": "Ceci",
+    "apellido": "Solalinde",
+    "edad": 12,
+    "categoria": "estudiante",
+    "id" : 3
+},
+{
+    "nombre": "Diego",
+    "apellido": "Legui",
+    "edad": 29,
+    "categoria": "maestro",
+    "id" : 4
+}]
+
+

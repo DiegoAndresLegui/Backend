@@ -1,0 +1,42 @@
+[
+{"Title": "Samsung Galaxy S21 Ultra 5G",
+"Description": "El Samsung Galaxy S21 Ultra 5G es un teléfono inteligente de alta gama con una pantalla de 6.8 pulgadas y una cámara trasera cuádruple de 108 MP ",
+"Price": 199.99 ,
+"Thumbnail": "https://example.com/images/samsung-galaxy-s21-ultra.jpg" ,
+"Code": 1 ,
+"Stock": 100
+},
+
+{
+"Title": "Samsung 75 QLED 4K Smart TV - Q70A Series" ,
+"Description" : "La serie Q70A de Samsung es una excelente opción para aquellos que buscan una experiencia de visualización inmersiva.",
+"Price": 1799.99,
+"Thumbnail": "https://example.com/images/samsung-qled-tv.jpg",
+"Code": 2,
+"Stock": 50
+},
+{
+"Title": "Samsung Galaxy TAB a7",
+"Description": "La Samsung Galaxy Tab A7 es una tableta de gama media con pantalla de 10.4 pulgadas y altavoces duales." ,
+"Price": 249.99,
+"Thumbnail": "https://example.com/images/samsung-galaxy-tab-a7.jpg",
+"Code": 3,
+"Stock": 75
+},
+{
+"Title": "Samsung 970 PRO SSD",
+"Description": "El Samsung 970 PRO SSD es una unidad de estado sólido de alta velocidad que ofrece una capacidad de almacenamiento de 512GB",
+"Price": 199.99,
+"Thumbnail": "https://example.com/images/samsung-970-pro.jpg",
+"Code": 4,
+"Stock": 25
+},
+{
+"Title": "Samsung Galaxy Watch Active2",
+"Description": "El Samsung Galaxy Watch Active2 es un reloj inteligente con una pantalla de 44 mm y una batería de larga duración.",
+"Price": 249.99,
+"Thumbnail": "https://example.com/images/samsung-970-pro.jpg",
+"Code": 5,
+"Stock": 150
+}
+]
