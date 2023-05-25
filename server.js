@@ -1,17 +1,17 @@
 import express from 'express'
-import productManager from '../classes/productManager.js'
-const app = express()
+import routerProducts from './routes/products.router.js';
+import routerCart from './routes/cart.router.js';
 
-const productManager = new productManager
-app.get('/product', async (req,res)=> {
-    const limit = req.query.limit
-    const products = await productManager.getProducts(req.query.limit)
-    res.send(products)
-} )
+const app = express();
 
-app.get('/product/:id', async(req, res)=> {
-    const products = await productManager.getProductById(req.params.id)
-    res.send(usuario)
-})
 
-app.listen (8080, ()=> {console.log('Servidor Levantado')})
+app.use(express.json());
+app.use(express.urlencoded({ extended: true }));
+
+
+app.use('/products/', routerProducts)
+app.use('/carts/', routerCart)
+
+app.listen(8080, ()=>{
+    console.log('servidor levantado')
+}) 
